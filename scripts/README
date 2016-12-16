@@ -1,0 +1,14 @@
+1. Create parameters files required by each step inside run_ml_rSNFi.sh
+
+2. List all parameters files inside another file (i.e., pFile.txt), separated by tabular space
+
+3. Run ml-rSNFi framework:
+
+> bash run_ml_rSNFi.sh pFile.txt
+
+
+######################################
+SNFtools directory contains:
+- scripts provided by [Wang et al, Nature Methods, 2014] implementing Similarity Network Fusion (SNF)
+- snf_integration_tuning.R, our in-house script extending SNF with a feature ranking procedure (referred as to rSNF) and a parameter tuning step.
+######################################
