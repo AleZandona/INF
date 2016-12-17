@@ -1,5 +1,3 @@
-# 2014-01-09: [MC] addressed norm_l2 (added "if m is None" checks)
-# 2013-11-21: [AZ] added scaling method norm L2
 import numpy as np
 
 def minmax_scaling(x, m=None, r=None):
