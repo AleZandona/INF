@@ -1,10 +1,10 @@
-1. Create parameters files required by each step inside run_ml_rSNFi.sh
+1. Create parameters files required by each step inside run_INF.sh
 
 2. List all parameters files inside another file (i.e., pFile.txt), separated by tabular space
 
-3. Run ml-rSNFi framework:
+3. Run INF framework:
 
-> bash run_ml_rSNFi.sh pFile.txt
+> bash run_INF.sh pFile.txt
 
 
 ######################################

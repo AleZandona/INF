@@ -4,7 +4,7 @@
 ## Requires Python >= 2.7, mlpy >= 3.5
 
 
-#### Random Forest on (rSNFi) reduced dataset ####
+#### Random Forest on (INF) reduced dataset ####
 
 # File with parameters, separated by tabular space
 paramList=$1
@@ -39,7 +39,7 @@ then
 	mkdir ${oPath}
 fi
 
-# RF classifier training on rSNFi-reduced dataset
+# RF classifier training on INF-reduced dataset
 python ${sPath}/sklearn_rf_training_fixrank.py ${dataPath}/${data_rsnfi} ${labFile} ${oPath} --plot
 
 

@@ -59,8 +59,8 @@ ${sPath}/intersect_topfeats.sh ${paramFile_inter_rf}
 # STEP 5 - RF on reduced dataset with intersection of biomarkers from rf_j and rf_rSNF 
 ######################################################################################
 echo '#################################'
-echo '############ rSNFi ##############'
+echo '############# INF ###############'
 echo '#################################'
-# Parameters file for rf_rSNFi.sh
-paramFile_rf_rsnfi=${params[4]}
-${sPath}/rf_rSNFi.sh ${paramFile_rf_rsnfi}
+# Parameters file for rf_INF.sh
+paramFile_rf_INF=${params[4]}
+${sPath}/rf_INF.sh ${paramFile_rf_INF}
